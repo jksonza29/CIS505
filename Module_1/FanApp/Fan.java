@@ -1,6 +1,6 @@
 /*
-    Author: <Your Name>
-    Date: mm/dd/yyyy
+    Author: Janzal Karlo Sonza
+    Date: 03/19/2022
     Purpose: Create a fan class that defines the properties of the fan object and possible actions
 */
 public class Fan {
