@@ -34,39 +34,39 @@ public Fan(){
 declare all four during object creation to invoke this constructor */
 public Fan(int speed, boolean isOn, double radius, String color){
     this.speed = speed;
-    this.inOn = isOn;
+    this.isOn = isOn;
     this.radius = radius;
     this.color = color;
 }
 
 /*getter setter methods - this operator refers to object's instance variables above*/
 public int getSpeed(){//get the fan speed
-        <add code here>
+        return this.speed;
 }
 public void setSpeed(int speed){ 
     //set the fan speed if within range as dictated by ternary operator
-        <add code here>
+        this.speed = speed;
 }
 
 public boolean getStatus(){ //get the fan's status
-        <add code here>
+        return this.isOn;
 }
-public void setStatus(boolean status){ //set the fan's status
-        <add code here>
+public void setStatus(boolean isOn){ //set the fan's status
+        this.isOn = isOn;
 }
 
 public double getRadius(){ //get the radius
-        <add code here>
+        return this.radius;
 }
 public void setRadius(double radius){ //set the radius
-        <add code here>
+        this.radius = radius;
 }
 
 public String getColor(){
-        <add code here>
+        return this.color;
 }
 public void setColor(String color){
-        <add code here>
+        this.color = color;
 }
 //  this is a completed override of toString - I want you to know how to do this right away
 @Override //creation of override toString method that can be called from another class
