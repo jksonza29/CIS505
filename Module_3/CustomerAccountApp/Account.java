@@ -15,14 +15,14 @@ public class Account {
         return this.balance;
     }
 
-    public double deposit(double amount){
-        this.balance = this.balance + amount;
+    public double deposit(double amt){
+        this.balance = this.balance + amt;
         return this.balance;
     }
 
-    public double withdraw(double amount){
-        if(this.balance >= amount){
-            this.balance = this.balance - amount;
+    public double withdraw(double amt){
+        if(this.balance >= amt){
+            this.balance = this.balance - amt;
         }
         return this.balance;
     }

@@ -50,7 +50,7 @@ public class TestCustomerAccountApp {
                    System.out.printf("\n  Account Balance: $%,6.2f\n", balance);
                 }
                 else {
-                    System.out.println("\n  Error: Invalid Option\n");
+                    System.out.println("\n  Error: Invalid option\n");
                 }
 
                 System.out.printf("  Continue? (y/n): ");
