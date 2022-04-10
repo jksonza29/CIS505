@@ -1,3 +1,8 @@
+/*
+    Author: Janzal Karlo Sonza
+    Date: 04/06/2022
+*/
+
 public class Shoe extends Product{
     private double size = 0;
 

@@ -1,3 +1,8 @@
+/*
+    Author: Janzal Karlo Sonza
+    Date: 04/06/2022
+*/
+
 public class ProductDB {
     public static GenericQueue getProducts(String code){
         if(code.equalsIgnoreCase("b")){

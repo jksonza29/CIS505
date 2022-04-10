@@ -1,3 +1,8 @@
+/*
+    Author: Janzal Karlo Sonza
+    Date: 04/06/2022
+*/
+
 import java.util.LinkedList;
 
 public class GenericQueue<E> {

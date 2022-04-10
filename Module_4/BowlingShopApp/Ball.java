@@ -1,3 +1,8 @@
+/*
+    Author: Janzal Karlo Sonza
+    Date: 04/06/2022
+*/
+
 public class Ball extends Product{
     private String color = "";
 
