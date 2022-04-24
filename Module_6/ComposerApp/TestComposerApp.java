@@ -28,7 +28,7 @@ public class TestComposerApp {
 
             else if (Integer.valueOf(next).equals(1)){
                 List<Composer> composers =  MemComposerDao.findAll();
-                System.out.println("\n  --DISPLAYING COMPOSERS--");
+                System.out.println("\n\n  --DISPLAYING COMPOSERS--");
                 for(Composer composer : composers){
                     System.out.println("  Id: " + composer.getID());
                     System.out.println("  Name: " + composer.getName());
@@ -44,10 +44,10 @@ public class TestComposerApp {
                     System.out.println("\n  Error: No composer found.");
                 }
                 else{
-                    System.out.println("\n  --DISPLAYING COMPOSER--");
+                    System.out.println("\n\n  --DISPLAYING COMPOSER--");
                     System.out.println("  Id: " + composer.getID());
                     System.out.println("  Name: " + composer.getName());
-                    System.out.println("  Genre: " + composer.getGenre() + "\n");
+                    System.out.println("  Genre: " + composer.getGenre());
                 }
             }
 
